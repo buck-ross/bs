@@ -16,7 +16,7 @@ For example, calling `brainfuck ./prog.txt ./input.txt ./output.txt` will execut
 Additionally, the user may choose to only pass the program file or only the program and input files. For example, if "prog.txt" contains the code `,>+++[<.>-]`, then the call `echo "a" | brainfuck ./prog.txt` will print "aaa" to standard out.
 
 ## Building from Source
-1. Download the latest source tarball: `wget https://github.com/haximilian/brainfuck-shell/archive/brainfuck-shell.1.0.0.tar.gz`
+1. Download the latest source tarball: `wget https://github.com/haximilian/brainfuck-shell/releases/download/v1.0.0/brainfuck-shell.1.0.0.tar.gz`
 2. Unpack the source code: `tar xzvf brainfuck-shell.*.tar.gz`
 3. Enter the build directory: `cd brainfuck-shell/build`
 4. Configure the build environment: `../configure`

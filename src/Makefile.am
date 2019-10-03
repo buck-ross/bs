@@ -1,7 +1,7 @@
 if DEBUG
-AM_CFLAGS = -DDEBUG -I$(srcdir)/../lib -I$(srcdir)/../include
+AM_CFLAGS = -DDEBUG -I$(srcdir)/../lib -I$(srcdir)/../include -lreadline
 else
-AM_CFLAGS = -I$(srcdir)/../lib -I$(srcdir)/../include
+AM_CFLAGS = -I$(srcdir)/../lib -I$(srcdir)/../include -lreadline
 endif
 
 bin_PROGRAMS = brainfuck-shell

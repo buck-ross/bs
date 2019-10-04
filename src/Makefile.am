@@ -4,6 +4,6 @@ else
 AM_CFLAGS = -I$(srcdir)/../lib -I$(srcdir)/../include -lreadline
 endif
 
-bin_PROGRAMS = brainfuck-shell
-brainfuck_shell_SOURCES = brainfuck.c loop.c node.c reader.c
+bin_PROGRAMS = bs
+bs_SOURCES = main.c loop.c node.c reader.c
 

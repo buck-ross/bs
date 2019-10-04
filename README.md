@@ -30,3 +30,4 @@ Additionally, the user may choose to only pass the program file or only the prog
 Copyright &copy; 2018 Haximilian<br/>
 **This project is licensed under The [Do What The Fuck You Want To Public License](http://www.wtfpl.net/txt/copying/).**<br>
 For a complete copy of the license, please see the included "LICENSE.txt" file.
+

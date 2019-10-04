@@ -5,9 +5,9 @@
 
 // Define the structure that functions as the linked list:
 typedef struct Node_t {
-  struct Node_t* left;
-  struct Node_t* right;
-  char value;
+	struct Node_t* left;
+	struct Node_t* right;
+	char value;
 } Node;
 
 // Declare management methods:

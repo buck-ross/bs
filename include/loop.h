@@ -4,19 +4,19 @@
 #include <stdio.h>
 
 typedef struct Command_t {
-  struct Command_t* next;
-  char command;
+	struct Command_t* next;
+	char command;
 } Command;
 
 typedef struct Marker_t {
-  struct Marker_t* next;
-  Command* start;
+	struct Marker_t* next;
+	Command* start;
 } Marker;
 
 typedef struct CommandQueue_t {
-  Command* previous;
-  Command* current;
-  Marker* stack;
+	Command* previous;
+	Command* current;
+	Marker* stack;
 } CommandQueue;
 
 // Define managment methods:
